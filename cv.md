@@ -3,7 +3,7 @@
 
 ***
 
-[![my image](/img/img/20171024_234803.jpg)
+![my image](/img/20171024_234803.jpg "My photo")
 
 ## Contact information:
 * Phone: +90 531 010 6274
