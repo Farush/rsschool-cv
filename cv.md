@@ -45,9 +45,9 @@ const quarterOf = (month) => {
 
 ## Education:
 
-School: Tatar-american regional institute. 
-Field of study: Linguistics, cross-cultural communication.
-Degree: bachelor
+- School: Tatar-american regional institute. 
+- Field of study: Linguistics, cross-cultural communication.
+- Degree: bachelor
 
 ## Languages:
 1. English. C1 approximately. Never passed any official tests/exams. Passed some free test out of curiosity on internet which showed C1. 
