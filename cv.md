@@ -3,6 +3,8 @@
 
 ***
 
+[![my image](/img/img/20171024_234803.jpg)
+
 ## Contact information:
 * Phone: +90 531 010 6274
 * e-mail: farusha.q@gmail.com
