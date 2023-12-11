@@ -21,7 +21,7 @@ Studying IT on geekbrains platfom. Haven't finished it yet. Gained basaic skills
 * python. 
 * html, css.
 * MySQL. 
-* django. stuying at the moment
+* fastAPI stuying at the moment
 
 ***
 
@@ -45,6 +45,7 @@ const quarterOf = (month) => {
 * python: examples of homeworks I did can be found [here](https://github.com/Farush/HomeworkPython)
 * html, css: Adaptive homework project can be found [here](https://github.com/Farush/html-css-study-project)
 * MySQL: [MySQL database project](https://github.com/Farush/MySQL-Study-Project)
+* FastAPI: [here](https://github.com/Farush/Library_fastAPI)
 
 ## Education:
 
