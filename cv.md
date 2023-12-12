@@ -28,57 +28,6 @@ Studying IT on geekbrains platfom. Gained basic skills in these:
   
 ***
 
-## Examples of code:
-
-``` 
-class Matrix:
-    def __init__(self, matrix_lines):
-        self.matrix = matrix_lines
-        self.columns = len(self.matrix[0])
-        self.lines = len(self.matrix)
-        for line in self.matrix:
-            if len(line) != self.columns:
-                raise Exception ('All the lines in Matrix should have the same length') # the better way is to
-                # find the longest line and add zeros to the shorter ones
-        self.dimension = [self.lines, self.columns] # needed to make matrices' dimensions comparable
-        #print(self.matrix[0][0])
-
-    def __add__(self, other):
-        new_matrix = []
-        new_line = []
-        if self.dimension != other.dimension: # We refuse to add matrices with different dimensions.
-            # The better way is to fill missing lines and columns with zeros which demands writing a more complex
-            # code
-            raise ArithmeticError('Matrices have different dimensions')
-        else:
-            for line in range(len(self.matrix)):
-                for column in range(len(self.matrix[0])):
-                    new_line.append(self.matrix[line][column] + other.matrix[line][column])
-                new_matrix.append(new_line)
-                new_line = []
-
-            return Matrix(new_matrix)
-
-    def __str__(self):
-        matrix_square = ''
-        for line in range(len(self.matrix)):
-            for column in range(len(self.matrix[0])):
-                matrix_square = matrix_square + f'|  {self.matrix[line][column]}  '
-            matrix_square = matrix_square + '|\n'
-        return matrix_square
-
-    def __mul__(self, multiplier): # just because I can
-        new_matrix = []
-        new_line = []
-        for line in range(len(self.matrix)):
-            for column in range(len(self.matrix[0])):
-                new_line.append(self.matrix[line][column] * multiplier)
-            new_matrix.append(new_line)
-            new_line = []
-
-        return Matrix(new_matrix)
-```
-
 ## Experience:
 
 * python: examples of homeworks I did can be found [here](https://github.com/Farush/HomeworkPython)
@@ -87,8 +36,8 @@ class Matrix:
 * FastAPI: [here](https://github.com/Farush/Library_fastAPI)
 
 ## Education:
-
-- School: Tatar-american regional institute. 
+- Kazan State University: Phisics, Astronomy. Not finished, no degree
+- School Tatar-american regional institute. 
 - Field of study: Linguistics, cross-cultural communication.
 - Degree: bachelor
 
