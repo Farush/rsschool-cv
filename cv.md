@@ -3,7 +3,7 @@
 
 ***
 
-![my image](img/photo_small.jpeg "My photo")
+
 
 ## Contact information:
 * Phone: +381 63 885 9102
