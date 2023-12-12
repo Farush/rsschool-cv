@@ -24,7 +24,8 @@ Studying IT on geekbrains platfom. Gained basic skills in these:
 * python. 
 * html, css.
 * MySQL. 
-* fastAPI, Docker stuying at the moment. 
+* fastAPI, Docker stuying at the moment.
+  
 ***
 
 ## Examples of code:
