@@ -14,13 +14,15 @@
 * discord: Farhad  Sibgatullin (@farush)
 
 ## Summary:
-
+Junior level software engineer. Most recent experience
+includes programming in Python and database management. Constantly
+expanding into new areas of knowledge and improving current skills.
 
 ## Skills
-Studying IT on geekbrains platfom. Haven't finished it yet. Gained basaic skills in these:
+Studying IT on geekbrains platfom. Gained basic skills in these:
 * git, github can be found [here](https://github.com/Farush)
 * python. 
-* html, css.
+* html, css. [project] 
 * MySQL. Study project can be found [here](https://github.com/Farush/MySQL-Study-Project) 
 * fastAPI, Docker stuying at the moment. Project can be found [here](https://github.com/Farush/Library_fastAPI)
 ***
