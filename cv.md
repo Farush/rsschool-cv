@@ -31,7 +31,6 @@ Studying IT on geekbrains platfom. Gained basic skills in these:
 ## Examples of code:
 
 ``` 
-
 class Matrix:
     def __init__(self, matrix_lines):
         self.matrix = matrix_lines
@@ -78,26 +77,6 @@ class Matrix:
             new_line = []
 
         return Matrix(new_matrix)
-
-
-matr1 = Matrix([[1, 2, 3], [2, 5, 8], [65, 67894, 0]])
-
-matr2 = Matrix([[2, 5, 9], [789, -17, -36], [0, 0, 56]])
-
-matr3 = matr1 + matr2
-
-matr4 = matr1 + matr2 + matr3 + matr1
-
-matr5 = matr1 * 1
-
-print(matr5 * 15.7)
-
-print(type(matr3))
-
-print(matr3)
-print(matr4)
-
-
 ```
 
 ## Experience:
