@@ -40,7 +40,7 @@ Studying IT on geekbrains platfom. Gained basic skills in these:
   - Physics, Astronomy.
   - Not finished, no degree.
     
-- School Tatar-american regional institute:
+- Tatar-american regional institute:
   - Linguistics, cross-cultural communication.
   - Degree: bachelor, specialist.
 
