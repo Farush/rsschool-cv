@@ -37,10 +37,12 @@ Studying IT on geekbrains platfom. Gained basic skills in these:
 
 ## Education:
 - Kazan State University:
+  - September 1996 - June 1997 
   - Physics, Astronomy.
   - Not finished, no degree.
     
 - Tatar-american regional institute:
+  - September 1998 - June 2004
   - Linguistics, cross-cultural communication.
   - Degree: bachelor, specialist.
 
