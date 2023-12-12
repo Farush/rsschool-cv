@@ -36,7 +36,7 @@ Studying IT on geekbrains platfom. Gained basic skills in these:
 * FastAPI: [here](https://github.com/Farush/Library_fastAPI)
 
 ## Education:
-- Kazan State University: Phisics, Astronomy. Not finished, no degree
+- Kazan State University: Physics, Astronomy. Not finished, no degree
 - School Tatar-american regional institute. 
 - Field of study: Linguistics, cross-cultural communication.
 - Degree: bachelor
