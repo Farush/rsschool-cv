@@ -1,0 +1,55 @@
+h1 {
+    text-align: center;
+    padding-bottom: 10px;
+}
+.name {
+    padding-left: 24px;
+    background-color:#61B4CF;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+}
+.side-box {
+    display: inline-block;
+    max-width: 720px;
+    min-width: 120px;
+    padding-left: 24px;
+    
+}
+.header {
+    
+    background-color:hsl(185, 51%, 77%);
+    
+}
+.menu-item {
+    margin: 10px;
+    display: inline-block;
+}
+img {
+    display: inline-block;
+    margin: 20px;
+}
+.wrapper {
+    display: block;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 24px;
+    padding-right: 24px;
+    
+}
+
+.footer {
+    background-color:#61B4CF;
+}
+
+.logo {
+    width: auto;
+    max-width: 360px;
+    min-width: 120px;
+}
+
+.footer-element {
+    display: inline-block;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
