@@ -25,6 +25,31 @@ Studying IT on Geekbrains platfom. Gained basic skills in these:
 - Version Control: Git, GitHub (Profile: [Farush](https://github.com/Farush))
 - Currently Learning: FastAPI
 - Basic skills: Linux
+
+## Example of code
+  Программа запрашивает у пользователя строку чисел, разделённых пробелом. При нажатии Enter должна выводиться
+ сумма чисел. Пользователь может продолжить ввод чисел, разделённых пробелом и снова нажать Enter.
+ Сумма вновь введённых чисел будет добавляться к уже подсчитанной сумме.
+```
+sum_of_numbers = 0
+stop_sign = False
+
+while not stop_sign:
+
+    input_str = input('Введите числа: ')
+    input_lst = input_str.split()
+
+    for str in input_lst:
+        if str.isdigit(): # игнорируем не цифры
+            sum_of_numbers = sum_of_numbers + int(str)
+        elif str == 'stop': # по стоп-слову (XD) включаем флаг
+            stop_sign = True
+            break
+        else:
+            continue
+
+    print(sum_of_numbers)
+  ```
   
 ***
 
