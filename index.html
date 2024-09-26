@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Vitae</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <nav>
+                <ul>
+                    <li class="menu-item">
+                        <a href="#contact">contacts</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#about">about me</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#skills">skills</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#code">examples of code</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#experience">experience</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#education">education</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#languages">languages</a>
+                    </li>
+                </ul>
+            </nav>
+            <H1>Curriculum Vitae</H1>
+        </header>
+        <main>
+            <h2 class="name">Farkhad Sibgatullin</h2>
+
+            <img src="img/photo_small.png" alt="my photo">
+            <aside class="side-box">
+                <h2 id="contact">Contact information:</h2>
+                <ul>
+                    <li>Phone: +381 63 885 9102</li>
+                    <li>Whatsapp: +90 531 010 6274</li>
+                    <li>e-mail: farusha.q@gmail.com</li>
+                    <li>github: <a href="https://github.com/Farush" target="_blank">https://github.com/Farush</a></li>
+                    <li>telegram: @farusha</li>
+                    <li>discord: Farhad Sibgatullin (@farush)</li>
+                </ul>
+                <h2 id="about">About me:</h2>
+                <p>My goal is to get a job that would let me work from anywhere and get a reasonably appropriate salary
+                    at the same time.
+                    Used to work as a rope access technician for more than ten years. </p>
+            </aside>
+
+            <h2 id="skills">Skills:</h2>
+            <p>Studying IT on geekbrains platfom. Haven't finished it yet. Gained basic skills in these:</p>
+
+            <ul>
+                <li>Version Control: Git, <a href="https://github.com/Farush" target="_blank">Github</a></li>
+                <li> Programming Languages: Python.</li>
+                <li>Web Development: HTML, CSS.</li>
+                <li>Database Management: MySQL.</li>
+                <li>Currently Learning: FastAPI</li>
+                <li>Basic skills: Linux</li>
+            </ul>
+            <h2 id="code">Examples of code:</h2>
+            <pre>
+                <code>
+            #Программа запрашивает у пользователя строку чисел, разделённых пробелом. При нажатии Enter должна выводиться
+            #сумма чисел. Пользователь может продолжить ввод чисел, разделённых пробелом и снова нажать Enter.
+            #Сумма вновь введённых чисел будет добавляться к уже подсчитанной сумме.
+              
+            sum_of_numbers = 0
+            stop_sign = False
+               
+            while not stop_sign:
+               
+                input_str = input('Введите числа: ')
+                input_lst = input_str.split()
+               
+                for str in input_lst:
+                    if str.isdigit(): # игнорируем не цифры
+                        sum_of_numbers = sum_of_numbers + int(str)
+                    elif str == 'stop': # по стоп-слову (XD) включаем флаг
+                        stop_sign = True
+                        break
+                    else:
+                        continue
+               
+                print(sum_of_numbers)            
+                </code>
+            </pre>
+            <h2 id="experience">Experience, projects:</h2>
+            <ul>
+                <li>Python: Homework assignments are available <a href="https://github.com/Farush/HomeworkPython"
+                        target="_blank">here</a></li>
+                <li>HTML/CSS: Adaptive homework project is available <a
+                        href="https://github.com/Farush/html-css-study-project" target="_blank">here</a></li>
+                <li>MySQL:<a href="https://github.com/Farush/MySQL-Study-Project" target="_blank">MySQL database
+                        project</a></li>
+            </ul>
+            <h2 id="education">Education:</h2>
+            <ul>
+                <li>School: Tatar-american regional institute.</li>
+                <li>Field of study: Linguistics, cross-cultural communication.</li>
+                <li>Degree: bachelor, specialist</li>
+            </ul>
+            <h2 id="languages">Languages:</h2>
+            <ol>
+                <li>English C1</li>
+                <li>Russian</li>
+                <li>Turkish B1</li>
+            </ol>
+        </main>
+        <footer class="footer">
+            <ul class="logos">
+                <li title="github" class="footer-element">
+                    <a href="https://github.com/Farush" target="_blank">
+                        <img src="img/github-icon-original.svg" alt="github-icon" width="64">
+                    </a>
+                </li>
+                <li title="rs-school" class="footer-element">
+                    <a href="https://rs.school/courses/javascript-ru" target="_blank">
+                        <img class="logo" src="img/rs-school-logo.svg" alt="logo">
+                    </a>
+                </li>
+                <li class="footer-element">
+                    <img width="180" src="img/year.png" alt="year">
+                </li>
+            </ul>
+        </footer>
+
+    </div>
+
+</body>
+
+</html>
+
